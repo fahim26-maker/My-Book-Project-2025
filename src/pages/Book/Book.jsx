@@ -7,8 +7,9 @@ const Book = ({singleBook}) => {
 
     return (
       <Link to={`/bookDetails/${bookId}`}>
+        <section className='mb-2'>
         <div class="card bg-base-100 w-96 shadow-sm p-4 border border-base-300">
-  <figure className='bg-base-300 '>
+  <figure className='bg-base-300 py-4'>
     <img className='h-[166px]' src={image} />
   </figure>
   <div class="p-4">
@@ -22,6 +23,7 @@ const Book = ({singleBook}) => {
     </div>
   </div>
 </div>
+</section>
       </Link>
     );
 };

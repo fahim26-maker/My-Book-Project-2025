@@ -12,8 +12,8 @@ const Navbar = () => {
             </div>
             <div className=''>
                 <Link to='/'><a href="http://"><button class="btn btn-outline btn-accent mr-4">Home</button></a></Link>
-                <Link to='/about'><a href="http://" className='mr-4 text-sm text-gray-400'>Listed Books</a></Link>
-                <Link to='/PagesToRead'><a href="http://" className=' text-sm text-gray-400'>Pages to Read</a></Link>
+                <Link to='/about'><a href="http://" className='mr-4 text-sm text-gray-400 hover:btn btn'>Listed Books</a></Link>
+                <Link to='/PagesToRead'><a href="http://" className=' text-sm text-gray-400 hover:btn btn'>Pages to Read</a></Link>
             </div>
             <div className=''> 
                 <button class="btn btn-accent mr-2 text-white">Sign In</button>
